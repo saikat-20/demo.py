@@ -35,6 +35,9 @@ class Addressbook():
         else:
             print(phone, "search number was not found")
 
+    def demo(self):
+        name=input("Enter your name: ")
+
 
 addressbook=Addressbook()
 addressbook.add_number()
